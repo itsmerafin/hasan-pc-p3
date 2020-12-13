@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    overflow: hidden;
+}
+
+.header-left{
+    width: 50%;
+    float: left;
+}
+.logoImg{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+}
+header h1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;  
+}
+.header-right{
+    width: 50%;
+    float: right;
+}
+li{
+    float: right;
+    list-style-type: none;
+    display: inline;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
+
+
