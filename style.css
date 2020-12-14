@@ -70,3 +70,152 @@ p {
     flex-direction: row;
     justify-content: center;
 }
+
+#about {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+    overflow: hidden;
+}
+.aboutText {
+    padding: 20px;
+    width: 50%;
+    float: left;
+    position: relative;
+    right: 20px;
+}
+
+.aboutImg {
+    width: 500px;
+    height: auto;
+    float: right;
+    position: relative;
+    left: 26px;
+}
+button {
+padding: 20px;
+color: blanchedalmond;
+background-color: blueviolet;
+cursor: pointer;/* 
+position: relative;
+left: 220px; */
+}
+#contact a{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 2px;
+    color: black;
+}
+.fbLogo {
+    width: 40px;
+    height: auto;
+    border-radius: 40%;
+    position: relative;
+    top: 7px;
+    left: 7px;
+}
+.footer {
+    background-color: black;
+    padding: 17px;
+
+}
+.em1 {
+    color: cornsilk;
+    font-size: 14px;
+    padding: 17px;
+
+}
+.em2 {
+    float: right;
+    color: cornflowerblue;
+    font-size: 14px;
+    font-family: fantasy;
+    position: relative;
+    bottom: 9px;
+}
+
+.im3{
+    transform: rotate(-90deg);
+}
+
+
+@media screen and (max-width: 1020px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        margin: 0 0 15px 0;
+    }    
+    .im3 {
+        position: relative;
+        top: 25px;
+        height: 300px;
+        
+    }
+    button {
+        padding: 20px;
+        color: blanchedalmond;
+        background-color: blueviolet;
+        cursor: pointer;/* 
+        position: relative;
+        left: 130px; */
+        }
+    .aboutImg {
+        left: 0;
+        }
+
+
+        #about {
+            display: flex;
+            flex-direction: column;
+            margin: 50px 0;
+            overflow: hidden;
+            justify-content: center;
+            align-items: center;
+        }
+}
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    .header-left h1 {
+        font-size: 30px;
+        position: relative;
+        top: 15px;
+    }
+    button {
+        padding: 20px;
+        color: blanchedalmond;
+        background-color: blueviolet;
+        cursor: pointer;/* 
+        position: relative;
+        left: 50px; */
+        }
+}
+
+@media screen and (max-width: 570px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-left {
+        width: 100%;
+        float: none;
+    }
+    .header-right{
+        width: 100%;
+        float: none;
+    }
+}
+
+
