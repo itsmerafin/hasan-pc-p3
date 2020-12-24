@@ -7,21 +7,24 @@
     <title>Md Hasan</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
 </head>
 
 <body>
     <header class="header">
         <div class="header-left">
-            <a href="#"><img class="logoImg" src="gallery/received_344045126587298.jpeg" alt="logo">
+            <a href="#"><img class="logo" src="gallery/received_344045126587298.jpeg" width="100px" height="70px"
+                    alt="logo">
+
+            </a>
+            <a href="#">
                 <h1>Md Hasan</h1>
             </a>
 
         </div>
         <div class="header-right">
-            <ul>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-            </ul>
+            <a href="#contact">Contact</a>
+            <a href="#gallery">Gallery</a>
         </div>
     </header>
 
@@ -30,33 +33,35 @@
 
         <section id="about">
             <div class="aboutText">
-                <div class="flex2">
-                 <div class="f1"><h1>Who Is Hasan </h1>
-                <p>Hasan is a Bussiness man. He runs a Rubber Factory. He is a Good person with a kind Heart. This
-                    website is just a gift for him</p> </div>
-                
-                <div class="f2">    <a href="https://www.facebook.com/messages/t/100011445344575" target="_blank"><button id="btn"
-                        onmouseout="btnf()" onmouseover="btnfuc()">DM Hasan on FB</button></a></div></div>
+
+                <div class="f1">
+                    <h1>Who Is Hasan </h1>
+                    <p>Hasan is a Bussiness man. He runs a Rubber Factory. He is a Good person with a kind Heart. This
+                        website is just a gift for him</p>
+                </div>
+
+                <div class="f2"> <a href="https://www.facebook.com/messages/t/100011445344575" target="_blank"><button
+                            id="btn" onmouseout="btnf()" onmouseover="btnfuc()">DM Hasan on FB</button></a></div>
             </div>
             <div class="aboutImg">
                 <img src="gallery/hasan.jpg" alt="About Hasan" class="aboutImg">
             </div>
         </section>
         <hr>
-        <section id="gallery">
+       <section id="gallery">
             <h1>Gallery</h1>
             <p>Here you can see some rare pictures of Living Legend Md Hasan</p>
             <div class="flex">
 
-                <img src="gallery/IMG20180305171539.jpg" height="auto" width="300px" alt="">
-                <img src="gallery/IMG20180616172814.jpg" height="auto" width="300px" alt="">
-                <img class="im3" src="gallery/IMG_20190404_201412.jpg" height="300px" width="300px" alt="">
+                <img src="gallery/IMG20180305171539.jpg" alt="">
+                <img src="gallery/IMG20180616172814.jpg" alt="">
+                <img class="im3" src="gallery/IMG_20190404_201412.jpg"  alt="">
 
             </div>
         </section>
         <hr>
         <section id="contact">
-            <h1>Contact</h1>
+            <h1>Contact Us</h1>
             <p>
                 <i>Need Hasan's Facebook Id? ok here you go.</i>
                 <a href="https://www.facebook.com/profile.php?id=100011445344575"> <img class="fbLogo"
@@ -68,17 +73,17 @@
     </div>
     <footer class="footer">
         <em class="em1">Created by - Ahmed Rafin | I'm a professional. Please give me Job.</em>
-        <em class="em2">Contact Me on <img class="fbLogo" src="gallery/Facebook-logo-768x538.png" alt=""></em>
-    </footer>
-    <script>
-        btnfuc = () => {
-            console.log("button hovered")
-            document.getElementById("btn").style.backgroundColor = "red";
-        }
-        btnf = () => {
-            document.getElementById("btn").style.backgroundColor = "blueviolet"
-        }
-    </script>
+        <em class="em2"> <a href="https://facebook.com/psycho.rafin">Contact Me on <img class="fbLogo" src="gallery/Facebook-logo-768x538.png" alt=""></a></em>
+    </footer> 
+        <script>
+            btnfuc = () => {
+                console.log("button hovered")
+                document.getElementById("btn").style.backgroundColor = "red";
+            }
+            btnf = () => {
+                document.getElementById("btn").style.backgroundColor = "blueviolet"
+            }
+        </script>
 </body>
 
 </html>
