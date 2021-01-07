@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 125%;
+}
+#gallery {
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+    img{
+        width: 12rem;
+        height: auto;
+        &:hover{
+            opacity: .3;
+        }
+
+    }
+}
+#about {
+    margin: 5rem 0;
+    img {
+        width: 20rem;
+        height: auto;
+        &:hover {
+            opacity: .3;
+        }
+        
+    }
+}
+#contact {
+    margin: 5rem 0;
+    img {
+        width: 3rem;
+        height: auto;
+    }
+    p {
+        color: black;
+        &:hover {
+            color: goldenrod;
+        }
+    }
+}
+
+footer {
+    img {
+        width: 3rem;
+        height: auto;
+    }
+    p {
+        color: black;
+        &:hover {
+            color: goldenrod;
+        }
+    }
+    
+}
+
+@media (max-width: 900px){
+    html {
+        font-size:80%;
+    }
+    #gallery {
+        img{
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+            
+            &:hover{
+                opacity: .3;
+            }
+    
+        }
+    }
+}
+@media (max-width: 600px){
+    html {
+        font-size:55%;
+    }
+    #gallery {
+        img {
+            width:1
+        }
+    }
+}

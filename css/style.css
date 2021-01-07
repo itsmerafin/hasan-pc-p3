@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 125%;
+}
+
+#gallery {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 5rem;
+}
+
+#gallery img {
+  width: 12rem;
+  height: auto;
+}
+
+#gallery img:hover {
+  opacity: .3;
+}
+
+#about {
+  margin: 5rem 0;
+}
+
+#about img {
+  width: 20rem;
+  height: auto;
+}
+
+#about img:hover {
+  opacity: .3;
+}
+
+#contact {
+  margin: 5rem 0;
+}
+
+#contact img {
+  width: 3rem;
+  height: auto;
+}
+
+#contact p {
+  color: black;
+}
+
+#contact p:hover {
+  color: goldenrod;
+}
+
+footer img {
+  width: 3rem;
+  height: auto;
+}
+
+footer p {
+  color: black;
+}
+
+footer p:hover {
+  color: goldenrod;
+}
+
+@media (max-width: 900px) {
+  html {
+    font-size: 80%;
+  }
+  #gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+  }
+  #gallery img:hover {
+    opacity: .3;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 55%;
+  }
+  #gallery img {
+    width: 1;
+  }
+}
+/*# sourceMappingURL=style.css.map */
