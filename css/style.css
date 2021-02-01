@@ -14,7 +14,7 @@ html {
 }
 
 #gallery img {
-  width: 12rem;
+  width: 19rem;
   height: auto;
 }
 
@@ -65,7 +65,7 @@ footer p:hover {
   color: goldenrod;
 }
 
-@media (max-width: 900px) {
+@media all and (max-width: 900px) {
   html {
     font-size: 80%;
   }
@@ -80,7 +80,7 @@ footer p:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media all and (max-width: 600px) {
   html {
     font-size: 55%;
   }
